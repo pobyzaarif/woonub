@@ -23,6 +23,7 @@ function get_file_everything($atts, $content = NULL) {
   $output = '<center>
               <a href="' . $base . 'download.php?f=' . base64_encode('sample/' . $content) . '">
               <img src="' . $base . 'img/' . $atts["button"] . '" />
+              </a>
             <center>';
 
   return $output;
